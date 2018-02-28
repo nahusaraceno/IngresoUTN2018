@@ -1,13 +1,15 @@
 function Mostrar()
 {
    var cantPares=0; 
+   var i;
+   var numero
     numero=parseInt(prompt("Ingrese numero:"));
 
-for(var n=1;n<=numero;n++)
+for(var i=1;i<=numero;i++)
 {
-if(numero % 2 == 0) { cantPares++; }
+if(i % 2 == 0) { cantPares++; console.log(i);}
 
-}
+}console.log("Se encontraron "+cantPares+" numeros pares.");
 
 
 
